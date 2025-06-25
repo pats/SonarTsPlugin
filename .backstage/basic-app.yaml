@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: basic-app
+  annotations:
+    github.com/project-slug: pats/SonarTsPlugin
+  tags:
+    - website
+    - nodejs
+    - frontend
+    - codesnoop
+spec:
+  type: website
+  owner: pats
+  lifecycle: production
+  system: SonarTsPlugin
